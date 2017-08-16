@@ -1,0 +1,49 @@
+Lista Prática 1
+<meta charset="UTF-8">
+
+<p><strong>1) Da lista de tecnologias abaixo, aponte qual é executada no cliente e qual é executada no servidor </strong></p>
+<table border="1">
+	<tr><th>Tecnologia</th><th>Cliente</th><th>Servidor</th></tr>
+	<tr><td>Apache</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>JavaScript</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>Tomcat</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>Java</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>HTML</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>PHP</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>Apache</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>MySQL</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>XHTML</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>MongoDB</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>CSS</td><td>X</td><td>&nbsp;</td></tr>
+</table>
+
+<p><strong>2) Aponte as regiões da URL <code>http://www.impacta.com.br/eventos/default.php</code></strong></p>
+
+<p>RESPOSTA:</p> Região se encontra no ".br", informando que é um domínio do Brasil.
+
+<p><strong>3) Quais outros protocolos de comunicação para troca de mensagens via internet existem? Pesquise e cite 3 exemplos, descrevendo sua função e aplicação.</strong></p>
+<ul>
+	<li>
+		<p>
+			PROTOCOLO 1: SMTP (Simple Mail Transfer Protocol - Protocolo Simples de Transferência de E-mail), é o protocolo padrão que permite transferir o e-mail de um servidor para outro, em conexão ponto a ponto. 
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 2:IMAP4 (Internet Message Access Protocol - Protocolo de Acesso à Mensagem de Internet), é um protocolo alternativo ao POP3, que oferece mais possibilidades. Entre outras, ele permite gerenciar vários acessos simultâneos, administrar várias caixas de e-mail e organizar as mensagens de acordo com mais critérios.
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 3:POP3 (Post Office Protocol - Protocolo dos correios), usado para recuperar emails de pessoas não conectadas permanentemente à Internet, para poderem consultar os e-mails recebidos offline. 
+		</p>
+	</li>
+</ul>
+
+<p><strong>4) Explore os sites de hospedagem do  (<a href="http://www.uolhost.uol.com.br/" target="_blank">http://www.uolhost.uol.com.br/</a>) e da LOCAWEB (<a href="https://www.locaweb.com.br" target="_blank">https://www.locaweb.com.br</a>), veja os serviços que eles oferecem. Qual desses serviços (em cada site) seria mais adequado para o seu site de desenvolvedor (páginas estáticas) e para a sua aplicação web?</strong></p>
+
+<p>RESPOSTA:</p> Na minha opnião o UolHost é melhor, apenas perdendo no espaço de disco de 10gb contra o ilimitado da Locaweb, a Uol oferece servidores mais estáveis e um suporte técnico de qualidade ao cliente. Fora que o índice de reclamações negativas do Locaweb é bem extenso.
+
+<p><strong>5) Pequisem sobre as limitações do HTTP 1.1 e como o HTTP2 vence essa limitação, cite 2 dessas limitações e suas respostas no HTTP2</strong></p>
+
+<p>RESPOSTA:</p> O HTTP 1.1 tem uma grande carga de dados, tem possibilidade de não haver segurança e algumas coisas importantes só eram feitas manualmente. No HTTP2 o volume de dados é menor pois eles são comprimidos. Apenas os https serão suportados, fazendo com que haja mais segurança. E ferramentas essenciais agora são aplicadas como padrão, sem configuração manual.
